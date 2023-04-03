@@ -11,10 +11,33 @@
      }
   
    .sidebar {
-    grid-area: sidebar;
+     grid-area: sidebar;
+     margin: 0;
+     padding: 0;
+     width:200px;
+     background-color: silver;
+     height: 32%
     }
   .sidebar a{
-      grid-area: sidebar;
+    grid-area: sidebar;
+    display: black;
+    padding: 16px;
+    flex-wrap: wrap;
+    border: 5px solid white;
+    font-family: "Roboto", sans-serif;
+    } 
+  .sidebar {
+    grid-area: sidebar;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    align-content: space-between;
     } 
 
+        
+
+        
+        .sidebar {
+            grid-column: 2/3;
+            grid-row: 2/4;
+            align-content: space-between;}
   
